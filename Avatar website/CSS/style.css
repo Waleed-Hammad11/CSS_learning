@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #01022d, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 640px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-image: 
+    linear-gradient(to right, #01022de5 25%,#00000088),
+    url(../images/ca-times.brightspotcdn.webp);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.container::selection{
+    background-color: rgba(255, 255, 0, 0.25);
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right, #01022de5 25%,transparent),
+    url(../images/ca-times.brightspotcdn.webp);
+}
+.header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+
+}
+li a:hover{
+    border-bottom-color: rgba(0, 68, 255, 0.8) ;
+    color: rgba(0, 68, 255, 0.8);
+}
+.content{
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 30px;
+    color: white;
+}
+.content h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}

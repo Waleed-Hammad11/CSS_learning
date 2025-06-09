@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    background-position: 25% 75%;
+}
+header{
+    height: 90%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav .logo{
+    font-size: 30px;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    opacity: 0.9; 
+    color: white;
+    transition: all 0.3s ease;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+nav .buttons button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+nav .buttons button:hover{
+    opacity: 1;
+}
+nav .buttons button:last-child{
+    background-color: #000;
+    color: white;
+    
+}
+header .content{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    color: white;
+}
+header .content .title {
+    font-size: 50px;
+}
+header .content button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition:all 0.3s ease ;
+}
+header .content button:hover{
+    color: white;
+    background-color: #0b0c0a;
+}
