@@ -97,10 +97,3 @@ If you wish to explore the code on your local machine, follow these steps:
 ### 📫 Let's Connect\!
 
 If you find these projects interesting or have any feedback, feel free to reach out. I am always open to discussing web development, UI design, and new opportunities.
-
------
-
-### نصائح سريعة لتعزيز هذا التوثيق مستقبلاً:
-
-  * **تحديث الروابط:** لا تنسَ استبدال `YourUsername` و `YourRepoName` في كود التحميل (Clone) ببيانات حسابك الحقيقية.
-  * **إضافة الصور:** من الممارسات الممتازة جداً أن تأخذ لقطة شاشة (Screenshot) مجمعة تظهر فيها أفضل 3 أو 4 مشاريع لديك، وتقوم بوضعها في أعلى هذا الملف (تحت العنوان الرئيسي مباشرة) لجذب انتباه من يزور صفحتك فوراً.
